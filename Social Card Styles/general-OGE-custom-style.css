@@ -1,0 +1,90 @@
+
+
+	   .back-to-top { background-color: #1c1c1c; }
+	   .back-to-top .jl-icon, .back-to-top .fa { color: #ffffff; }
+	   .back-to-top:hover { background-color: #f4a460; }
+	   .back-to-top:hover .jl-icon, .back-to-top .fa { color: #ffffff; }
+	   .back-to-top {right: 20px;}
+
+	   .g-slideshow-thumbs-title span{
+	   background-color: #00000080;
+	   border-radius: 10px;
+	   padding: 10px;
+	   }
+	   .g-slideshow-main-title {
+	   text-shadow: 2px 2px 4px #310020;
+	   }
+	   .g-slideshow-main-title a{
+	   color:white;
+	   }
+	   .g-slideshow-thumbs-title {display:none;}
+	   .accordion-item-title{font-size:1.2rem;}
+	   .jl-accordion-content ul {margin-left:1rem;}
+	   html{scroll-behavior:smooth;}
+	   #oxford-logo{margin:7px;}
+	   #oxford-social{max-width:155px;}
+	   .anchored p:first-of-type > a:first-of-type { display: block;
+	      position: relative;
+	      top: -300px;
+	      visibility: hidden;}
+	   #about-slider p{color:#fff;}
+	   .btn-apply {
+	      color: #ffffff;
+	      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	      background-color: #da4f49;
+	      *background-color: #bd362f;
+	      background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+	      background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
+	      background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
+	      background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
+	      background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+	      background-repeat: repeat-x;
+	      border-color: #bd362f #bd362f #802420;
+	      border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
+	      filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	   }
+
+	   .btn-apply:hover,
+	   .btn-apply:focus,
+	   .btn-apply:active,
+	   .btn-apply.active,
+	   .btn-apply.disabled,
+	   .btn-apply[disabled] {
+	      color: #ffffff;
+	      background-color: #bd362f;
+	      *background-color: #a9302a;
+	   }
+
+	   .btn-apply:active,
+	   .btn-apply.active {
+	      background-color: #942a25 \9;
+	   }
+	   #program-tiles .program-accordion {display:none;}
+	   #program-details .program-tile {display:none;}
+	   #program-detail .program-tile .btn-apply{display:block;}
+	   #upcoming-programs .program-tile p {float:left;margin:0 15px 0 0;}
+	   #upcoming-programs .btn-apply{margin:1px auto;}
+
+	   #jldivider-8219-particle .jl-hr,
+	   #jldivider-8219-particle hr {
+	    border-top: 1px solid #e5e5e5;
+	   }
+
+	   #jldivider-6796-particle .jl-hr,
+	   #jldivider-6796-particle hr {
+	    border-top: 1px solid #e5e5e5;
+	   }
+
+	   #jlsubnav-6420 .jl-subnav>*>:first-child { font-size: 14px;text-transform: capitalize; }
+	   #jlsubnav-6420 .jl-subnav>*>:first-child { color: #ffffff; }
+	   #jlsubnav-6420 .jl-subnav>*>a:focus,#jlsubnav-6420 .jl-subnav>*>a:hover, #jlsubnav-6420 .jl-subnav>.jl-active>a { color: #9299a4; }
+	   
+	.oxford-row {padding-top:1rem; border-bottom:1px solid slategray;}
+	   .oxford-overlay .jl-overlay{background:rgba(0,85,150,0.8);}
+	   a.leave-action:after{font-family: 'FontAwesome';
+	      content: " \f08e";}
+	   article ul {margin-left:2rem;}
+	   .instagram_username a{color:#fff;}
+	   .sprocket-readmore,  .sprocket-mosaic-tags, .sprocket-mosaic-hovercontent{display:none;}
+	   .cloakOfInvisibility{display:none !important;}
