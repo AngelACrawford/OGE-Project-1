@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-GB">
+<head>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta charset="utf-8">
+	<base href="https://oxford.uga.edu/social">
+
+	<title>UGA at Oxford - Social</title>
+	<link href="/index.php?option=com_ajax&plugin=arktypography&format=json" rel="stylesheet">
+	<link href="/templates/jl_education_pro/css/jluikit.min.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/dd45d77cfa.js" crossorigin="anonymous"></script>
+	<link href="/media/gantry5/engines/nucleus/css-compiled/nucleus.css" rel="stylesheet">
+	<link href="/templates/jl_education_pro/custom/css-compiled/education_21.css" rel="stylesheet">
+	<link href="/media/gantry5/assets/css/bootstrap-gantry.css" rel="stylesheet">
+	<link href="/media/gantry5/engines/nucleus/css-compiled/joomla.css" rel="stylesheet">
+	<link href="/media/jui/css/icomoon.css" rel="stylesheet">
+	<link href="/templates/jl_education_pro/custom/css-compiled/education-joomla_21.css" rel="stylesheet">
+	<link href="/templates/jl_education_pro/custom/css-compiled/custom_21.css" rel="stylesheet">
+	<style>
+
+	   .back-to-top { background-color: #1c1c1c; }
+	   .back-to-top .jl-icon, .back-to-top .fa { color: #ffffff; }
+	   .back-to-top:hover { background-color: #f4a460; }
+	   .back-to-top:hover .jl-icon, .back-to-top .fa { color: #ffffff; }
+	   .back-to-top {right: 20px;}
+
+	   .g-slideshow-thumbs-title span{
+	   background-color: #00000080;
+	   border-radius: 10px;
+	   padding: 10px;
+	   }
+	   .g-slideshow-main-title {
+	   text-shadow: 2px 2px 4px #310020;
+	   }
+	   .g-slideshow-main-title a{
+	   color:white;
+	   }
+	   .g-slideshow-thumbs-title {display:none;}
+	   .accordion-item-title{font-size:1.2rem;}
+	   .jl-accordion-content ul {margin-left:1rem;}
+	   html{scroll-behavior:smooth;}
+	   #oxford-logo{margin:7px;}
+	   #oxford-social{max-width:155px;}
+	   .anchored p:first-of-type > a:first-of-type { display: block;
+	      position: relative;
+	      top: -300px;
+	      visibility: hidden;}
+	   #about-slider p{color:#fff;}
+	   .btn-apply {
+	      color: #ffffff;
+	      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	      background-color: #da4f49;
+	      *background-color: #bd362f;
+	      background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+	      background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
+	      background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
+	      background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
+	      background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+	      background-repeat: repeat-x;
+	      border-color: #bd362f #bd362f #802420;
+	      border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
+	      filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	   }
+
+	   .btn-apply:hover,
+	   .btn-apply:focus,
+	   .btn-apply:active,
+	   .btn-apply.active,
+	   .btn-apply.disabled,
+	   .btn-apply[disabled] {
+	      color: #ffffff;
+	      background-color: #bd362f;
+	      *background-color: #a9302a;
+	   }
+
+	   .btn-apply:active,
+	   .btn-apply.active {
+	      background-color: #942a25 \9;
+	   }
+	   #program-tiles .program-accordion {display:none;}
+	   #program-details .program-tile {display:none;}
+	   #program-detail .program-tile .btn-apply{display:block;}
+	   #upcoming-programs .program-tile p {float:left;margin:0 15px 0 0;}
+	   #upcoming-programs .btn-apply{margin:1px auto;}
+
+	   #jldivider-8219-particle .jl-hr,
+	   #jldivider-8219-particle hr {
+	    border-top: 1px solid #e5e5e5;
+	   }
+
+	   #jldivider-6796-particle .jl-hr,
+	   #jldivider-6796-particle hr {
+	    border-top: 1px solid #e5e5e5;
+	   }
+
+	   #jlsubnav-6420 .jl-subnav>*>:first-child { font-size: 14px;text-transform: capitalize; }
+	   #jlsubnav-6420 .jl-subnav>*>:first-child { color: #ffffff; }
+	   #jlsubnav-6420 .jl-subnav>*>a:focus,#jlsubnav-6420 .jl-subnav>*>a:hover, #jlsubnav-6420 .jl-subnav>.jl-active>a { color: #9299a4; }
+	   
+	.oxford-row {padding-top:1rem; border-bottom:1px solid slategray;}
+	   .oxford-overlay .jl-overlay{background:rgba(0,85,150,0.8);}
+	   a.leave-action:after{font-family: 'FontAwesome';
+	      content: " \f08e";}
+	   article ul {margin-left:2rem;}
+	   .instagram_username a{color:#fff;}
+	   .sprocket-readmore,  .sprocket-mosaic-tags, .sprocket-mosaic-hovercontent{display:none;}
+	   .cloakOfInvisibility{display:none !important;}
+	</style>
+	<style>
+	                       .sjm-card{border: 1px solid #dfe6eb;padding:5px;margin:5px;overflow:hidden;padding:15px;height:250px;}
+	                       .sjm-card:hover{visibility: visible;background-color: rgba(219, 245, 250, 0.8);}
+	                       .sjm-row{margin-bottom:5px;}
+	                       .sjm-header .sjm-pic{min-width:30px;min-height:30px;background-size:contain;background-repeat:no-repeat;}
+	                       .sjm-header .sjm-name span{ font-size:0.8em;}
+	                       .sjm-header .sjm-date{text-align:right;}
+	                       .sjm-mid .sjm-text{font-family:Merriweather;font-size:0.99em;font-weight:700;margin:2vw 0 1vw 0;}
+
+	                       .sjm-box:hover .sjm-photo{z-index: -1;}
+	                       .sjm-hide{visibility: hidden;}
+	                       .sjm-story{padding: 2% 5% 2%;font-size: 14px;font-style: italic;}
+	                       .sjm-over{height: 20px;position: absolute;bottom: 0px;padding: 0% 10%;}
+	                       .sjm-more a{cursor: pointer;}
+	                       .sjm-photo{position: absolute;width: 100%;height: 100%;background-size: cover;background-position: center center;}
+
+	                       .side-B {display:none;}
+	                       .layered{position:absolute;}
+	                       .fb-box{font-weight: bold;line-height: 18px;}
+	                       #fb-share-box{position: absolute;top: 170px;z-index: 999;height: 300px;}
+	                       #fb-share-inner{width: 500px;max-width: 100%;}
+
+	                       @keyframes flip1A{
+	                       0%   {transform: rotateY(000deg); z-index:1;}
+	                       50%  {transform: rotateY(180deg); z-index:0;}
+	                       100% {transform: rotateY(360deg); z-index:1;}
+	                       }
+	                       @keyframes flip1B{
+	                       0%   {transform: rotateY(180deg); z-index:0;}
+	                       51%  {transform: rotateY(360deg); z-index:1;}
+	                       100% {transform: rotateY(180deg); z-index:0;}
+	                       }
+	                       #sjm-container0x{
+	                       animation: flip1A 60s infinite forwards -5s;
+	                       }
+	                       #sjm-container12x{
+	                       animation: flip1B 60s infinite forwards -5s;
+	                       }
+	</style>
+</head>
+<body class="gantry site com_content view-article no-layout no-task dir-ltr itemid-169 outline-21 g-offcanvas-left g-default g-style-preset1">
+	<style>
+	</style>
+	<div data-g-offcanvas-css3="1" data-g-offcanvas-swipe="1" id="g-offcanvas">
+		<div class="g-grid">
+			<div class="g-block size-100">
+				<div class="g-content g-particle" id="mobile-menu-9919-particle">
+					<div data-g-menu-breakpoint="51rem" id="g-mobilemenu-container"></div>
+				</div>
+			</div>
+		</div>
+		<div class="g-grid">
+			<div class="g-block size-100 nopaddingall nomarginall center visible-phone">
+				<div class="g-content g-particle" id="social-5961-particle">
+					<div class="g-social jl-light">
+						<a href="https://www.facebook.com/UGAatOxford/" rel="noopener noreferrer" target="_blank"><span class="fa fa-facebook-square fa-fw fa-2x"></span> <span class="g-social-text"></span></a> <a href="https://twitter.com/ugaatoxford" rel="noopener noreferrer" target="_blank"><span class="fa fa-twitter-square fa-fw fa-2x"></span> <span class="g-social-text"></span></a> <a href="https://www.instagram.com/ugaatoxford" rel="noopener noreferrer" target="_blank"><span class="fa fa-instagram fa-fw fa-2x"></span> <span class="g-social-text"></span></a> <a href="mailto:ugaatoxford@uga.edu" rel="noopener noreferrer" target="_blank"><span class="fa fa-envelope-square fa-2x"></span> <span class="g-social-text"></span></a> <a aria-label="Tel:706-542-2244" href="Tel:706-542-2244" rel="noopener noreferrer" target="_blank" title="Tel:706-542-2244"><span class="fa fa-phone"></span> <span class="g-social-text">Tel:706-542-2244</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="g-page-surround">
+		<div aria-controls="g-offcanvas" aria-expanded="false" class="g-offcanvas-hide g-offcanvas-toggle" data-offcanvas-toggle="" role="navigation">
+			<i class="fa fa-fw fa-bars"></i>
+		</div>
+		<section class="section-horizontal-paddings g-flushed" id="g-navigation">
+			<div class="g-container">
+				<div class="g-grid">
+					<div class="g-block size-22 nopaddingright nopaddingleft" id="oxford-logo">
+						<div class="g-content g-particle" id="logo-5085-particle">
+							<a aria-label="UGA at Oxford" class="g-logo" href="/" rel="home" target="_self" title="UGA at Oxford"><img alt="UGA at Oxford" src="/templates/jl_education_pro/custom/images/logos/Screen-OXFORD-FS-CW-430px.png" style="max-height: 90px"></a>
+						</div>
+					</div>
+					<div class="g-block size-60 center nomarginleft nomarginright hidden-phone">
+						<div class="g-content g-particle" id="menu-5377-particle">
+							<nav class="g-main-nav" data-g-hover-expand="true" data-g-mobile-target="">
+								<ul class="g-toplevel">
+									<li class="g-menu-item g-menu-item-type-component g-menu-item-119 g-parent g-standard g-menu-item-link-parent">
+										<a class="g-menu-item-container" href="/about"><span class="g-menu-item-content"><span class="g-menu-item-title">About</span></span> <span class="g-menu-parent-indicator" data-g-menuparent=""></span></a>
+										<ul class="g-dropdown g-inactive g-no-animation g-dropdown-right">
+											<li class="g-dropdown-column">
+												<div class="g-grid">
+													<div class="g-block size-100">
+														<ul class="g-sublevel">
+															<li class="g-level-1 g-go-back">
+																<a class="g-menu-item-container" data-g-menuparent="" href="#"><span>Back</span></a>
+															</li>
+															<li class="g-menu-item g-menu-item-type-url g-menu-item-129">
+																<a class="g-menu-item-container" href="/about#uga-program"><span class="g-menu-item-content"><span class="g-menu-item-title">UGA at Oxford</span></span></a>
+															</li>
+															<li class="g-menu-item g-menu-item-type-url g-menu-item-130">
+																<a class="g-menu-item-container" href="/about#oxford-univ"><span class="g-menu-item-content"><span class="g-menu-item-title">Oxford University</span></span></a>
+															</li>
+															<li class="g-menu-item g-menu-item-type-url g-menu-item-140">
+																<a class="g-menu-item-container" href="/about#oxford-ed"><span class="g-menu-item-content"><span class="g-menu-item-title">The Oxford Education</span></span></a>
+															</li>
+															<li class="g-menu-item g-menu-item-type-url g-menu-item-131">
+																<a class="g-menu-item-container" href="/about#uga-centre"><span class="g-menu-item-content"><span class="g-menu-item-title">UGA at Oxford Centre</span></span></a>
+															</li>
+															<li class="g-menu-item g-menu-item-type-url g-menu-item-132">
+																<a class="g-menu-item-container" href="/about#keble"><span class="g-menu-item-content"><span class="g-menu-item-title">Keble College, Oxford</span></span></a>
+															</li>
+															<li class="g-menu-item g-menu-item-type-url g-menu-item-133">
+																<a class="g-menu-item-container" href="/about#trinity"><span class="g-menu-item-content"><span class="g-menu-item-title">Trinity College, Oxford</span></span></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li class="g-menu-item g-menu-item-type-component g-menu-item-122 g-standard">
+										<a class="g-menu-item-container" href="/programs"><span class="g-menu-item-content"><span class="g-menu-item-title">Programs</span></span></a>
+									</li>
+									<li class="g-menu-item g-menu-item-type-component g-menu-item-120 g-parent g-standard g-menu-item-link-parent" style="position: relative;">
+										<a class="g-menu-item-container" href="/funding"><span class="g-menu-item-content"><span class="g-menu-item-title">Funding</span></span> <span class="g-menu-parent-indicator" data-g-menuparent=""></span></a>
+										<ul class="g-dropdown g-inactive g-no-animation g-dropdown-right" data-g-item-width="350px" style="width:350px;">
+											<li class="g-dropdown-column">
+												<div class="g-grid">
+													<div class="g-block size-100">
+														<ul class="g-sublevel">
+															<li class="g-level-1 g-go-back">
+																<a class="g-menu-item-container" data-g-menuparent="" href="#"><span>Back</span></a>
+															</li>
+															<li class="g-menu-item g-menu-item-type-url g-menu-item-125">
+																<a class="g-menu-item-container" href="/funding#scholarships"><span class="g-menu-item-content"><span class="g-menu-item-title">Scholarships</span></span></a>
+															</li>
+															<li class="g-menu-item g-menu-item-type-url g-menu-item-127">
+																<a class="g-menu-item-container" href="/funding#other-funding"><span class="g-menu-item-content"><span class="g-menu-item-title">Other Scholarships and Funding Sources</span></span></a>
+															</li>
+															<li class="g-menu-item g-menu-item-type-url g-menu-item-126">
+																<a class="g-menu-item-container" href="/funding#employment"><span class="g-menu-item-content"><span class="g-menu-item-title">Student Employment</span></span></a>
+															</li>
+															<li class="g-menu-item g-menu-item-type-url g-menu-item-128">
+																<a class="g-menu-item-container" href="/funding#support"><span class="g-menu-item-content"><span class="g-menu-item-title">Support the Program</span></span></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li class="g-menu-item g-menu-item-type-component g-menu-item-121 g-parent g-standard g-menu-item-link-parent">
+										<a class="g-menu-item-container" href="/travel"><span class="g-menu-item-content"><span class="g-menu-item-title">Explore</span></span> <span class="g-menu-parent-indicator" data-g-menuparent=""></span></a>
+										<ul class="g-dropdown g-inactive g-no-animation g-dropdown-right">
+											<li class="g-dropdown-column">
+												<div class="g-grid">
+													<div class="g-block size-100">
+														<ul class="g-sublevel">
+															<li class="g-level-1 g-go-back">
+																<a class="g-menu-item-container" data-g-menuparent="" href="#"><span>Back</span></a>
+															</li>
+															<li class="g-menu-item g-menu-item-type-alias g-menu-item-158">
+																<a class="g-menu-item-container" href="/travel"><span class="g-menu-item-content"><span class="g-menu-item-title">Travel Information</span></span></a>
+															</li>
+															<li class="g-menu-item g-menu-item-type-alias g-menu-item-149">
+																<a class="g-menu-item-container" href="/travel"><span class="g-menu-item-content"><span class="g-menu-item-title">Explore Oxford</span></span></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="g-block size-18 center nopaddingleft nopaddingright hidden-phone" id="oxford-social">
+						<div class="g-content g-particle" id="social-8474-particle">
+							<div class="g-social jl-light">
+								<a href="https://www.facebook.com/UGAatOxford/" rel="noopener noreferrer" target="_blank"><span class="fa fa-facebook-square fa-fw"></span> <span class="g-social-text"></span></a> <a href="https://twitter.com/ugaatoxford" rel="noopener noreferrer" target="_blank"><span class="fa fa-twitter-square fa-fw"></span> <span class="g-social-text"></span></a> <a href="https://www.instagram.com/ugaatoxford" rel="noopener noreferrer" target="_blank"><span class="fa fa-instagram fa-fw"></span> <span class="g-social-text"></span></a> <a aria-label="oxford@uga.edu" href="mailto:oxford@uga.edu" rel="noopener noreferrer" target="_blank" title="oxford@uga.edu"><span class=""></span> <span class="g-social-text">oxford@uga.edu</span></a> <a aria-label="706-542-2244" href="tel:706-542-2244" rel="noopener noreferrer" target="_blank" title="706-542-2244"><span class=""></span> <span class="g-social-text">706-542-2244</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-horizontal-paddings section-vertical-paddings-small g-flushed" id="g-showcase">
+			<div class="g-container">
+				<div class="g-grid">
+					<div class="g-block size-100">
+						<div class="g-content g-particle" id="jlheading-4282-particle">
+							<h2 class="g5-particle-title jl-text-center jl-h2 jl-heading-line" id="jlheading-4282"><span>Stay Connected</span></h2>
+							<div class="tm-content-wrapper" id="jlheading-4282"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="g-intro">
+			<div class="g-grid">
+				<div class="g-block size-100">
+					<div class="g-content g-particle" id="custom-5778-particle"></div>
+				</div>
+			</div>
+			<div class="g-grid">
+				<div class="g-block size-100" id="social">
+					<div class="g-content g-particle" id="custom-8528-particle">
+						<div id="rolodex" style="display:none;">
+							<div class="g-block sjm-card" id="sjm-container5">
+								<div class="g-grid sjm-header" id="sjm-header5">
+									<div class="g-block size-33 sjm-pic" id="sjm-pic5" style="background-image: url(&quot;/custom/twtUGAatOxford.jpg&quot;);"></div>
+									<div class="g-block size-66 sjm-cardName" id="sjm-title5">
+										<div class="g-grid" id="sjm-title-text5">
+											<div class="g-block size-100 sjm-name" id="sjm-name5">
+												UGA at Oxford<br>
+												<span>@UGAatOxford</span>
+											</div>
+											<div class="g-block size-100 sjm-date" id="sjm-date5">
+												Tue Sep 08
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="g-grid sjm-mid" id="sjm-mid5">
+									<div class="g-block" id="sjm-text5">
+										<p class="sjm-text" id="sjm-text-p5">Join us next week, September 15th, for UGA's virtual Study Abroad Fair from 11-5! We're here to answer your questio… <a href="https://t.co/U0akYZBiQa">https://t.co/U0akYZBiQa</a></p>
+									</div>
+								</div>
+								<div class="g-grid sjm-foot" id="sjm-foot5">
+									<div class="g-block size-33" id="sjm-share15">
+										<a class="sjm-fwd" href="https://twitter.com/intent/tweet?in_reply_to=1303405445093249026" id="sjm-fwd5"><i class="fa fa-share" id="sjm-fwd-img5"></i></a>
+									</div>
+									<div class="g-block size-33" id="sjm-share25">
+										<a class="sjm-rtw" href="https://twitter.com/intent/retweet?tweet_id=1303405445093249026" id="sjm-rtw5"><i class="fa fa-retweet" id="sjm-rtw-img5"></i></a>
+									</div>
+									<div class="g-block size-33" id="sjm-share35">
+										<a class="sjm-fav" href="https://twitter.com/intent/like?tweet_id=1303405445093249026" id="sjm-fav5"><i class="fa fa-star" id="sjm-fav-img5"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="g-block sjm-card" id="sjm-container6">
+								<div class="g-grid sjm-header" id="sjm-header6">
+									<div class="g-block size-33 sjm-pic" id="sjm-pic6" style="background-image: url(&quot;/custom/twtUGAatOxford.jpg&quot;);"></div>
+									<div class="g-block size-66 sjm-cardName" id="sjm-title6">
+										<div class="g-grid" id="sjm-title-text6">
+											<div class="g-block size-100 sjm-name" id="sjm-name6">
+												UGA at Oxford<br>
+												<span>@UGAatOxford</span>
+											</div>
+											<div class="g-block size-100 sjm-date" id="sjm-date6">
+												Wed Aug 19
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="g-grid sjm-mid" id="sjm-mid6">
+									<div class="g-block" id="sjm-text6">
+										<p class="sjm-text" id="sjm-text-p6">Don't forget that Spring 2021 applications are open! Apply now: <a href="https://t.co/IqmVoww9eH">https://t.co/IqmVoww9eH</a></p>
+									</div>
+								</div>
+								<div class="g-grid sjm-foot" id="sjm-foot6">
+									<div class="g-block size-33" id="sjm-share16">
+										<a class="sjm-fwd" href="https://twitter.com/intent/tweet?in_reply_to=1296063223075143680" id="sjm-fwd6"><i class="fa fa-share" id="sjm-fwd-img6"></i></a>
+									</div>
+									<div class="g-block size-33" id="sjm-share26">
+										<a class="sjm-rtw" href="https://twitter.com/intent/retweet?tweet_id=1296063223075143680" id="sjm-rtw6"><i class="fa fa-retweet" id="sjm-rtw-img6"></i></a>
+									</div>
+									<div class="g-block size-33" id="sjm-share36">
+										<a class="sjm-fav" href="https://twitter.com/intent/like?tweet_id=1296063223075143680" id="sjm-fav6"><i class="fa fa-star" id="sjm-fav-img6"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="g-block sjm-card" id="sjm-container7">
+								<div class="g-grid sjm-header" id="sjm-header7">
+									<div class="g-block size-33 sjm-pic" id="sjm-pic7" style="background-image: url(&quot;/custom/twtUGAatOxford.jpg&quot;);"></div>
+									<div class="g-block size-66 sjm-cardName" id="sjm-title7">
+										<div class="g-grid" id="sjm-title-text7">
+											<div class="g-block size-100 sjm-name" id="sjm-name7">
+												UGA at Oxford<br>
+												<span>@UGAatOxford</span>
+											</div>
+											<div class="g-block size-100 sjm-date" id="sjm-date7">
+												Fri Aug 14
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="g-grid sjm-mid" id="sjm-mid7">
+									<div class="g-block" id="sjm-text7">
+										<p class="sjm-text" id="sjm-text-p7">Interested in studying abroad in Oxford? Learn more about our programs and open applications now! <a href="https://t.co/jZIhb29Hz1">https://t.co/jZIhb29Hz1</a></p>
+									</div>
+								</div>
+								<div class="g-grid sjm-foot" id="sjm-foot7">
+									<div class="g-block size-33" id="sjm-share17">
+										<a class="sjm-fwd" href="https://twitter.com/intent/tweet?in_reply_to=1294257888517472259" id="sjm-fwd7"><i class="fa fa-share" id="sjm-fwd-img7"></i></a>
+									</div>
+									<div class="g-block size-33" id="sjm-share27">
+										<a class="sjm-rtw" href="https://twitter.com/intent/retweet?tweet_id=1294257888517472259" id="sjm-rtw7"><i class="fa fa-retweet" id="sjm-rtw-img7"></i></a>
+									</div>
+									<div class="g-block size-33" id="sjm-share37">
+										<a class="sjm-fav" href="https://twitter.com/intent/like?tweet_id=1294257888517472259" id="sjm-fav7"><i class="fa fa-star" id="sjm-fav-img7"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="g-block sjm-card" id="sjm-container8">
+								<div class="g-grid sjm-header" id="sjm-header8">
+									<div class="g-block size-33 sjm-pic" id="sjm-pic8" style="background-image: url(&quot;/custom/twtUGAatOxford.jpg&quot;);"></div>
+									<div class="g-block size-66 sjm-cardName" id="sjm-title8">
+										<div class="g-grid" id="sjm-title-text8">
+											<div class="g-block size-100 sjm-name" id="sjm-name8">
+												UGA at Oxford<br>
+												<span>@UGAatOxford</span>
+											</div>
+											<div class="g-block size-100 sjm-date" id="sjm-date8">
+												Thu Jul 30
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="g-grid sjm-mid" id="sjm-mid8">
+									<div class="g-block" id="sjm-text8">
+										<p class="sjm-text" id="sjm-text-p8">Satisfy your course requirements by learning abroad with UGA Oxford! Classes offered during our spring program can… <a href="https://t.co/MR9wImCUZ3">https://t.co/MR9wImCUZ3</a></p>
+									</div>
+								</div>
+								<div class="g-grid sjm-foot" id="sjm-foot8">
+									<div class="g-block size-33" id="sjm-share18">
+										<a class="sjm-fwd" href="https://twitter.com/intent/tweet?in_reply_to=1289040390843240448" id="sjm-fwd8"><i class="fa fa-share" id="sjm-fwd-img8"></i></a>
+									</div>
+									<div class="g-block size-33" id="sjm-share28">
+										<a class="sjm-rtw" href="https://twitter.com/intent/retweet?tweet_id=1289040390843240448" id="sjm-rtw8"><i class="fa fa-retweet" id="sjm-rtw-img8"></i></a>
+									</div>
+									<div class="g-block size-33" id="sjm-share38">
+										<a class="sjm-fav" href="https://twitter.com/intent/like?tweet_id=1289040390843240448" id="sjm-fav8"><i class="fa fa-star" id="sjm-fav-img8"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="g-block sjm-card" id="sjm-container9">
+								<div class="g-grid sjm-header" id="sjm-header9">
+									<div class="g-block size-33 sjm-pic" id="sjm-pic9" style="background-image: url(&quot;/custom/twtUGAatOxford.jpg&quot;);"></div>
+									<div class="g-block size-66 sjm-cardName" id="sjm-title9">
+										<div class="g-grid" id="sjm-title-text9">
+											<div class="g-block size-100 sjm-name" id="sjm-name9">
+												UGA at Oxford<br>
+												<span>@UGAatOxford</span>
+											</div>
+											<div class="g-block size-100 sjm-date" id="sjm-date9">
+												Fri Jun 26
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="g-grid sjm-mid" id="sjm-mid9">
+									<div class="g-block" id="sjm-text9">
+										<p class="sjm-text" id="sjm-text-p9">UGA at Oxford offers ONLINE SUMMER courses for INTB, JRLC, ECON, ENGL, HIST, INTL, PHIL, PSYC, &amp; RELI. UGA course… <a href="https://t.co/hq8Cfo2nqW">https://t.co/hq8Cfo2nqW</a></p>
+									</div>
+								</div>
+								<div class="g-grid sjm-foot" id="sjm-foot9">
+									<div class="g-block size-33" id="sjm-share19">
+										<a class="sjm-fwd" href="https://twitter.com/intent/tweet?in_reply_to=1276576981535133697" id="sjm-fwd9"><i class="fa fa-share" id="sjm-fwd-img9"></i></a>
+									</div>
+									<div class="g-block size-33" id="sjm-share29">
+										<a class="sjm-rtw" href="https://twitter.com/intent/retweet?tweet_id=1276576981535133697" id="sjm-rtw9"><i class="fa fa-retweet" id="sjm-rtw-img9"></i></a>
+									</div>
+									<div class="g-block size-33" id="sjm-share39">
+										<a class="sjm-fav" href="https://twitter.com/intent/like?tweet_id=1276576981535133697" id="sjm-fav9"><i class="fa fa-star" id="sjm-fav-img9"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="" id="theBoard">
+							<div class="g-grid" id="rowX"></div>
+							<div class="g-grid sjm-row" id="row0">
+								<div class="g-block sjm-card" id="sjm-container0">
+									<div class="g-grid sjm-header" id="sjm-header0">
+										<div class="g-block size-33 sjm-pic" id="sjm-pic0" style="background-image: url(&quot;/custom/twtUGAatOxford.jpg&quot;);"></div>
+										<div class="g-block size-66 sjm-cardName" id="sjm-title0">
+											<div class="g-grid" id="sjm-title-text0">
+												<div class="g-block size-100 sjm-name" id="sjm-name0">
+													UGA at Oxford<br>
+													<span>@UGAatOxford</span>
+												</div>
+												<div class="g-block size-100 sjm-date" id="sjm-date0">
+													Wed Apr 21
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="g-grid sjm-mid" id="sjm-mid0">
+										<div class="g-block" id="sjm-text0">
+											<p class="sjm-text" id="sjm-text-p0">A pair of fantastic sessions involving @londondawgs <a href="https://t.co/JzDaPj0Co7">https://t.co/JzDaPj0Co7</a></p>
+										</div>
+									</div>
+									<div class="g-grid sjm-foot" id="sjm-foot0">
+										<div class="g-block size-33" id="sjm-share10">
+											<a class="sjm-fwd" href="https://twitter.com/intent/tweet?in_reply_to=1384894630089613321" id="sjm-fwd0"><i class="fa fa-share" id="sjm-fwd-img0"></i></a>
+										</div>
+										<div class="g-block size-33" id="sjm-share20">
+											<a class="sjm-rtw" href="https://twitter.com/intent/retweet?tweet_id=1384894630089613321" id="sjm-rtw0"><i class="fa fa-retweet" id="sjm-rtw-img0"></i></a>
+										</div>
+										<div class="g-block size-33" id="sjm-share30">
+											<a class="sjm-fav" href="https://twitter.com/intent/like?tweet_id=1384894630089613321" id="sjm-fav0"><i class="fa fa-star" id="sjm-fav-img0"></i></a>
+										</div>
+									</div>
+								</div>
+								<div class="g-block sjm-card" id="sjm-container1">
+									<div class="g-grid sjm-header" id="sjm-header1">
+										<div class="g-block size-33 sjm-pic" id="sjm-pic1" style="background-image: url(&quot;/custom/twtUGAatOxford.jpg&quot;);"></div>
+										<div class="g-block size-66 sjm-cardName" id="sjm-title1">
+											<div class="g-grid" id="sjm-title-text1">
+												<div class="g-block size-100 sjm-name" id="sjm-name1">
+													UGA at Oxford<br>
+													<span>@UGAatOxford</span>
+												</div>
+												<div class="g-block size-100 sjm-date" id="sjm-date1">
+													Mon Feb 22
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="g-grid sjm-mid" id="sjm-mid1">
+										<div class="g-block" id="sjm-text1">
+											<p class="sjm-text" id="sjm-text-p1">RT <a href="https://twitter.com/UGAStudyAbroad">@UGAStudyAbroad</a>: Listen to Episode 2 of our new podcast Global Dawgs to learn about the UGA at Oxford Program! <a href="https://twitter.com/UGAatOxford">@UGAatOxford</a> https://t.…</p>
+										</div>
+									</div>
+									<div class="g-grid sjm-foot" id="sjm-foot1">
+										<div class="g-block size-33" id="sjm-share11">
+											<a class="sjm-fwd" href="https://twitter.com/intent/tweet?in_reply_to=1363923425459322882" id="sjm-fwd1"><i class="fa fa-share" id="sjm-fwd-img1"></i></a>
+										</div>
+										<div class="g-block size-33" id="sjm-share21">
+											<a class="sjm-rtw" href="https://twitter.com/intent/retweet?tweet_id=1363923425459322882" id="sjm-rtw1"><i class="fa fa-retweet" id="sjm-rtw-img1"></i></a>
+										</div>
+										<div class="g-block size-33" id="sjm-share31">
+											<a class="sjm-fav" href="https://twitter.com/intent/like?tweet_id=1363923425459322882" id="sjm-fav1"><i class="fa fa-star" id="sjm-fav-img1"></i></a>
+										</div>
+									</div>
+								</div>
+								<div class="g-block sjm-card" id="sjm-container2">
+									<div class="g-grid sjm-header" id="sjm-header2">
+										<div class="g-block size-33 sjm-pic" id="sjm-pic2" style="background-image: url(&quot;/custom/twtUGAatOxford.jpg&quot;);"></div>
+										<div class="g-block size-66 sjm-cardName" id="sjm-title2">
+											<div class="g-grid" id="sjm-title-text2">
+												<div class="g-block size-100 sjm-name" id="sjm-name2">
+													UGA at Oxford<br>
+													<span>@UGAatOxford</span>
+												</div>
+												<div class="g-block size-100 sjm-date" id="sjm-date2">
+													Thu Dec 03
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="g-grid sjm-mid" id="sjm-mid2">
+										<div class="g-block" id="sjm-text2">
+											<p class="sjm-text" id="sjm-text-p2">Check out this Instagram photo by @londondawgs <a href="https://t.co/vuuN7prvYa">https://t.co/vuuN7prvYa</a></p>
+										</div>
+									</div>
+									<div class="g-grid sjm-foot" id="sjm-foot2">
+										<div class="g-block size-33" id="sjm-share12">
+											<a class="sjm-fwd" href="https://twitter.com/intent/tweet?in_reply_to=1334565802696003584" id="sjm-fwd2"><i class="fa fa-share" id="sjm-fwd-img2"></i></a>
+										</div>
+										<div class="g-block size-33" id="sjm-share22">
+											<a class="sjm-rtw" href="https://twitter.com/intent/retweet?tweet_id=1334565802696003584" id="sjm-rtw2"><i class="fa fa-retweet" id="sjm-rtw-img2"></i></a>
+										</div>
+										<div class="g-block size-33" id="sjm-share32">
+											<a class="sjm-fav" href="https://twitter.com/intent/like?tweet_id=1334565802696003584" id="sjm-fav2"><i class="fa fa-star" id="sjm-fav-img2"></i></a>
+										</div>
+									</div>
+								</div>
+								<div class="g-block sjm-card" id="sjm-container3" style="background-image: url(&quot;https://pbs.twimg.com/media/EjvLoAOWoAAMWs6.jpg&quot;); background-size: contain; background-position: center center; background-repeat: no-repeat;">
+									<div class="g-grid sjm-header sjm-hide" id="sjm-header3">
+										<div class="g-block size-33 sjm-pic" id="sjm-pic3" style="background-image: url(&quot;/custom/twtUGAatOxford.jpg&quot;);"></div>
+										<div class="g-block size-66 sjm-cardName" id="sjm-title3">
+											<div class="g-grid" id="sjm-title-text3">
+												<div class="g-block size-100 sjm-name" id="sjm-name3">
+													UGA at Oxford<br>
+													<span>@UGAatOxford</span>
+												</div>
+												<div class="g-block size-100 sjm-date" id="sjm-date3">
+													Wed Oct 07
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="g-grid sjm-mid sjm-hide" id="sjm-mid3">
+										<div class="g-block" id="sjm-text3">
+											<p class="sjm-text" id="sjm-text-p3">Don't forget upcoming application deadlines! <a href="https://t.co/UbxexQ8Wws">https://t.co/UbxexQ8Wws</a></p>
+										</div>
+									</div>
+									<div class="g-grid sjm-foot sjm-hide" id="sjm-foot3">
+										<div class="g-block size-33" id="sjm-share13">
+											<a class="sjm-fwd" href="https://twitter.com/intent/tweet?in_reply_to=1313867615677317121" id="sjm-fwd3"><i class="fa fa-share" id="sjm-fwd-img3"></i></a>
+										</div>
+										<div class="g-block size-33" id="sjm-share23">
+											<a class="sjm-rtw" href="https://twitter.com/intent/retweet?tweet_id=1313867615677317121" id="sjm-rtw3"><i class="fa fa-retweet" id="sjm-rtw-img3"></i></a>
+										</div>
+										<div class="g-block size-33" id="sjm-share33">
+											<a class="sjm-fav" href="https://twitter.com/intent/like?tweet_id=1313867615677317121" id="sjm-fav3"><i class="fa fa-star" id="sjm-fav-img3"></i></a>
+										</div>
+									</div>
+								</div>
+								<div class="g-block sjm-card" id="sjm-container4">
+									<div class="g-grid sjm-header" id="sjm-header4">
+										<div class="g-block size-33 sjm-pic" id="sjm-pic4" style="background-image: url(&quot;/custom/twtUGAatOxford.jpg&quot;);"></div>
+										<div class="g-block size-66 sjm-cardName" id="sjm-title4">
+											<div class="g-grid" id="sjm-title-text4">
+												<div class="g-block size-100 sjm-name" id="sjm-name4">
+													UGA at Oxford<br>
+													<span>@UGAatOxford</span>
+												</div>
+												<div class="g-block size-100 sjm-date" id="sjm-date4">
+													Mon Oct 05
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="g-grid sjm-mid" id="sjm-mid4">
+										<div class="g-block" id="sjm-text4">
+											<p class="sjm-text" id="sjm-text-p4">Sure, it's been a bit damp, but there have been some really lovely sunrises at 104 Banbury Road of late! @ UGA at O… <a href="https://t.co/l0N1cusfkx">https://t.co/l0N1cusfkx</a></p>
+										</div>
+									</div>
+									<div class="g-grid sjm-foot" id="sjm-foot4">
+										<div class="g-block size-33" id="sjm-share14">
+											<a class="sjm-fwd" href="https://twitter.com/intent/tweet?in_reply_to=1313036791658745856" id="sjm-fwd4"><i class="fa fa-share" id="sjm-fwd-img4"></i></a>
+										</div>
+										<div class="g-block size-33" id="sjm-share24">
+											<a class="sjm-rtw" href="https://twitter.com/intent/retweet?tweet_id=1313036791658745856" id="sjm-rtw4"><i class="fa fa-retweet" id="sjm-rtw-img4"></i></a>
+										</div>
+										<div class="g-block size-33" id="sjm-share34">
+											<a class="sjm-fav" href="https://twitter.com/intent/like?tweet_id=1313036791658745856" id="sjm-fav4"><i class="fa fa-star" id="sjm-fav-img4"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="lightbox_overlay">
+							<div id="fb-share-box">
+								<span style="display:none;">&nbsp;</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="g-grid">
+				<div class="g-block size-100">
+					<div class="g-content g-particle" id="custom-9218-particle"></div>
+				</div>
+			</div>
+		</section>
+		<section class="nopaddingbottom section-horizontal-paddings section-vertical-paddings-small" id="g-abovefooter">
+			<div class="g-grid">
+				<div class="g-block size-100 nomargintop nomarginbottom">
+					<div class="g-content g-particle" id="jldivider-8219-particle">
+						<div class="tm-divider-wrapper custom-divider">
+							<hr class="jl-hr">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="g-grid">
+				<div class="g-block size-100">
+					<div class="g-content g-particle" id="jlfooterinfo-6718-particle">
+						<h3 class="g5-particle-title jl-h3" id="jlfooterinfo-6718">Office Information</h3>
+						<div class="footer-info-wrapper" id="jlfooterinfo-6718">
+							<div class="tm-content jl-panel jl-margin-top">
+								<p>Location: Athens, GA</p>
+								<p>Office Hours: 8:00am - 5:00pm</p>
+								<p>Telephone: 706-542-2244</p>
+								<p>Email: oxford@uga.edu</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="g-grid">
+				<div class="g-block size-100 nomarginbottom nopaddingbottom">
+					<div class="g-content g-particle" id="jldivider-6796-particle">
+						<div class="tm-divider-wrapper custom-divider jl-margin-remove-vertical">
+							<hr class="jl-hr">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="nopaddingtop section-horizontal-paddings" id="g-footer">
+			<div class="g-grid">
+				<div class="g-block size-50">
+					<div class="g-content g-particle" id="jlsubnav-6420-particle">
+						<div class="subnav-wrapper" id="jlsubnav-6420">
+							<ul class="jl-margin-remove-bottom jl-subnav">
+								<li class="tm-item">
+									<a class="tm-link" href="https://eits.uga.edu/access_and_security/infosec/pols_regs/policies/privacy/" target="_self">Privacy & Cookies</a>
+								</li>
+								<li class="tm-item">
+									<a class="tm-link" href="/about/contact" target="_self">Contact Us</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="g-block size-50 jl-text-right@s">
+					<div class="g-content g-particle" id="branding-2911-particle">
+						<div class="g-branding">
+							UGA at Oxford
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer><a class="back-to-top jl-icon-button" title="Back to top"><span aria-hidden="true" class="fa fa-angle-double-up"></span></a>
+	</div>
+</body>
+</html>
